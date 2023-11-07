@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: re;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstapp.ControllerKaspi">
+   <children>
+      <ImageView fitHeight="269.0" fitWidth="290.0" layoutX="165.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@164938057_proektor-optoma-eh334-1000x1000.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

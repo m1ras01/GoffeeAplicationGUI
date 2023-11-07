@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstapp.ControllerInventory">
+   <children>
+      <Text fill="#e40000" layoutX="225.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COFFEE    :     10  BOX">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="240.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUGAR  :    76 kg">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="251.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MILK   :   24 L">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutY="-15.0" prefHeight="116.0" prefWidth="607.0" style="-fx-background-color: blue;">
+         <children>
+            <Text fill="WHITE" layoutX="209.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IN INVENROTY">
+               <font>
+                  <Font name="Century Schoolbook" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button fx:id="back" layoutX="269.0" layoutY="305.0" mnemonicParsing="false" text="&lt;BACK" />
+   </children>
+</AnchorPane>

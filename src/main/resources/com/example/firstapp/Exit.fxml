@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstapp.ControllerEXIT">
+   <children>
+      <Text fx:id="buy" fill="RED" layoutX="113.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THANK YOU BUY!!!" wrappingWidth="446.9366455078125">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
